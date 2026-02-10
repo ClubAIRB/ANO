@@ -1,0 +1,236 @@
+<!-- pages/documents.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Документы - АНО ПСРОО РБ "Современная Школа"</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo">
+                <h1>АНО ПСРОО РБ "Современная Школа"</h1>
+                <p class="logo-subtitle">Автономная некоммерческая организация Профессиональное Сообщество Руководителей Образовательных Организаций Республики Башкортостан "Современная Школа"</p>
+            </div>
+            
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="../index.html"><i class="fas fa-home"></i> Главная</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="active"><i class="fas fa-info-circle"></i> Сведения об организации <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="basic-info.html">Основные сведения</a></li>
+                            <li><a href="structure.html">Структура и органы управления</a></li>
+                            <li><a href="documents.html" class="active">Документы</a></li>
+                            <li><a href="education.html">Образование</a></li>
+                            <li><a href="management.html">Руководство</a></li>
+                            <li><a href="teachers.html">Педагогический состав</a></li>
+                            <li><a href="material-base.html">Материально-техническое обеспечение</a></li>
+                            <li><a href="paid-services.html">Платные образовательные услуги</a></li>
+                            <li><a href="financial.html">Финансово-хозяйственная деятельность</a></li>
+                            <li><a href="vacancies.html">Вакантные места для приёма</a></li>
+                            <li><a href="scholarships.html">Стипендии и меры поддержки</a></li>
+                            <li><a href="international.html">Международное сотрудничество</a></li>
+                            <li><a href="nutrition.html">Организация питания</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contacts.html"><i class="fas fa-address-book"></i> Контакты</a></li>
+                </ul>
+            </nav>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="breadcrumbs">
+        <div class="container">
+            <ul>
+                <li><a href="../index.html">Главная</a></li>
+                <li><a href="documents.html">Сведения об организации</a></li>
+                <li><span>Документы</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <main class="container main-content">
+        <div class="page-header">
+            <h1>Документы образовательной организации</h1>
+        </div>
+
+        <div class="info-section">
+            <h2>Основные документы</h2>
+            <p>В соответствии с требованиями Приказа Рособрнадзора от 04.08.2023 №1493, на сайте размещены все обязательные документы образовательной организации. Документы представлены в формате PDF и доступны для скачивания.</p>
+            
+            <div id="documentsContainer" class="documents-list">
+                <!-- Документы будут загружены из JSON через script.js -->
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Учредительные документы</h2>
+            <div class="documents-list">
+                <div class="document-item">
+                    <i class="fas fa-file-pdf pdf-icon"></i>
+                    <div class="document-info">
+                        <h3>Устав АНО ПСРОО РБ "Современная Школа"</h3>
+                        <p>Основной документ, определяющий цели, задачи и порядок деятельности организации. Утвержден Общим собранием учредителей 22.06.2023.</p>
+                        <div class="document-meta">
+                            <span class="doc-date">Дата: 22.06.2023</span>
+                            <span class="doc-size">Размер: 245 КБ</span>
+                        </div>
+                        <a href="../documents/ustav.pdf" class="doc-link" target="_blank">
+                            <i class="fas fa-download"></i> Скачать PDF
+                        </a>
+                    </div>
+                </div>
+                <div class="document-item">
+                    <i class="fas fa-file-pdf pdf-icon"></i>
+                    <div class="document-info">
+                        <h3>Свидетельство о государственной регистрации</h3>
+                        <p>Свидетельство о государственной регистрации некоммерческой организации от 22.06.2023.</p>
+                        <div class="document-meta">
+                            <span class="doc-date">Дата: 22.06.2023</span>
+                            <span class="doc-size">Размер: 1.1 МБ</span>
+                        </div>
+                        <a href="../documents/svidetelstvo.pdf" class="doc-link" target="_blank">
+                            <i class="fas fa-download"></i> Скачать PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Лицензии и аккредитации</h2>
+            <div class="documents-list">
+                <div class="document-item">
+                    <i class="fas fa-file-pdf pdf-icon"></i>
+                    <div class="document-info">
+                        <h3>Лицензия на образовательную деятельность</h3>
+                        <p>Лицензия на осуществление образовательной деятельности по дополнительному профессиональному образованию. Регистрационный номер Л035-01234-77/00123456 от 15.09.2023.</p>
+                        <div class="document-meta">
+                            <span class="doc-date">Дата: 15.09.2023</span>
+                            <span class="doc-size">Размер: 1.2 МБ</span>
+                        </div>
+                        <a href="../documents/license.pdf" class="doc-link" target="_blank">
+                            <i class="fas fa-download"></i> Скачать PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Локальные нормативные акты</h2>
+            <div class="documents-list">
+                <div class="document-item">
+                    <i class="fas fa-file-pdf pdf-icon"></i>
+                    <div class="document-info">
+                        <h3>Правила внутреннего распорядка обучающихся</h3>
+                        <p>Правила поведения обучающихся, порядок организации образовательного процесса, права и обязанности обучающихся.</p>
+                        <div class="document-meta">
+                            <span class="doc-date">Дата: 10.09.2023</span>
+                            <span class="doc-size">Размер: 156 КБ</span>
+                        </div>
+                        <a href="../documents/pravila_obuchayushchikhsya.pdf" class="doc-link" target="_blank">
+                            <i class="fas fa-download"></i> Скачать PDF
+                        </a>
+                    </div>
+                </div>
+                <div class="document-item">
+                    <i class="fas fa-file-pdf pdf-icon"></i>
+                    <div class="document-info">
+                        <h3>Правила внутреннего трудового распорядка</h3>
+                        <p>Правила поведения работников, режим работы, порядок приема и увольнения, права и обязанности работников.</p>
+                        <div class="document-meta">
+                            <span class="doc-date">Дата: 10.09.2023</span>
+                            <span class="doc-size">Размер: 178 КБ</span>
+                        </div>
+                        <a href="../documents/pravila_trudovogo_rasporyadka.pdf" class="doc-link" target="_blank">
+                            <i class="fas fa-download"></i> Скачать PDF
+                        </a>
+                    </div>
+                </div>
+                <div class="document-item">
+                    <i class="fas fa-file-pdf pdf-icon"></i>
+                    <div class="document-info">
+                        <h3>Положение о защите персональных данных</h3>
+                        <p>Порядок обработки и защиты персональных данных обучающихся и работников организации.</p>
+                        <div class="document-meta">
+                            <span class="doc-date">Дата: 05.09.2023</span>
+                            <span class="doc-size">Размер: 198 КБ</span>
+                        </div>
+                        <a href="../documents/polozhenie_personalnye_dannye.pdf" class="doc-link" target="_blank">
+                            <i class="fas fa-download"></i> Скачать PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Отчетность и самообследование</h2>
+            <div class="documents-list">
+                <div class="document-item">
+                    <i class="fas fa-file-pdf pdf-icon"></i>
+                    <div class="document-info">
+                        <h3>Отчет о результатах самообследования за 2024 год</h3>
+                        <p>Анализ деятельности организации, достигнутых результатов, проблем и перспектив развития.</p>
+                        <div class="document-meta">
+                            <span class="doc-date">Дата: 15.04.2025</span>
+                            <span class="doc-size">Размер: 2.4 МБ</span>
+                        </div>
+                        <a href="../documents/otchet_samoobsledovanie_2024.pdf" class="doc-link" target="_blank">
+                            <i class="fas fa-download"></i> Скачать PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-column">
+                <h3>АНО ПСРОО РБ "Современная Школа"</h3>
+                <p>Автономная некоммерческая организация Профессиональное Сообщество Руководителей Образовательных Организаций Республики Башкортостан "Современная Школа"</p>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Контактная информация</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 450064, Республика Башкортостан, г. Уфа, ул. Мира, д. 14</p>
+                <p><i class="fas fa-clock"></i> Режим работы: пн-пт с 9:00 до 18:00</p>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Быстрые ссылки</h3>
+                <ul class="footer-links">
+                    <li><a href="basic-info.html">Основные сведения</a></li>
+                    <li><a href="documents.html">Документы</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 АНО ПСРОО РБ "Современная Школа". Все права защищены.</p>
+                <p>Дата регистрации организации: 22 июня 2023 года</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="accessibility-widget">
+        <button id="accessibilityBtn" title="Версия для слабовидящих">
+            <i class="fas fa-eye"></i>
+        </button>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>
